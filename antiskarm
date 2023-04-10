@@ -1,0 +1,4 @@
+game:GetService("Workspace").CurrentRooms.DescendantAdded:Connect(function(Obstructions) if Obstructions.Name == ("Seek_Arm" or "ChandelierObstruction") then task.spawn(function() wait() Obstructions:Destroy()
+  end) 
+ end 
+end
